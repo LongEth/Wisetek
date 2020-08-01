@@ -6,4 +6,6 @@ class Test{
     String getName(){
         return "hello";
     }
+    Test setName(String name){
+        return this;
 }
